@@ -1,10 +1,12 @@
 
 $black: #151515;
+$dark: #2c2c2d;
 $white: #FFFFFF;
 $red: #631809;
 $light-red: #944d3f;
 $green: #3a6136;
 $dark-green: #415027;
+$light-green: #abb9a6;
 
 // $resolution: 1920;
 // $resolution3:375;
@@ -86,6 +88,6 @@ $dark-green: #415027;
 //   @mixin for-min-mob {
 //     @media (min-width: 650px) { @content; }
 //   }
-//   @mixin for-lit-mob {
-//     @media (max-width: 360px) { @content; }
-//     }
+  @mixin for-lit-mob {
+    @media (max-width: 400px) { @content; }
+    }

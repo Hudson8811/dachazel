@@ -7,8 +7,13 @@
     <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
+    <!--start wrapper-->
     <div class="wrapper">
+
+        <!--start hero-->
         <div class="hero hero--pb" style="background-image: url(images/hero-bg/index-bg.jpg);">
+
+            <!--start header-->
             <header class="header">
                 <div class="container">
                     <div class="header__upper">
@@ -16,10 +21,15 @@
                             <img class="logo__img" src="images/logo.png" alt="">
                             <span class="logo__text">Дома и бани из профилированного бруса</span>
                         </a>
-                        <div class="header__callback">
+                        <div class="burger">
+                            <span class="rect"></span>
+                            <span class="rect"></span>
+                            <span class="rect"></span>
+                        </div>
+                        <div class="header__callback on-desktop">
                             <button class="button button--white header__button">Заказать обратный звонок</button>
                         </div>
-                        <div class="header__communication">
+                        <div class="header__communication on-desktop">
                             <div class="header__numbers">
                                 <img  class="header__number-icon" src="images/number.png" alt="">
                                 <div class="header__numbers-box">
@@ -41,8 +51,51 @@
                         </div>
                     </div>
                 </div>
+                <div class="mobile-menu header__mobile-menu">
+                    <div class="container">
+                        <nav class="menu menu--index">
+                       
+                            <ul class="menu__list">
+                                <li><a href="#">Каталог</a></li>
+                                <li><a href="#">Услуги</a></li>
+                                <li><a href="#">Компания</a></li>
+                                <li><a href="#">Прайс-лист</a></li>
+                                <li><a href="#">Контакты</a></li>
+                            </ul>
+                           
+                            
+                       
+                    </nav>
+                    <div class="header__communication">
+                        <div class="header__numbers">
+                            <img  class="header__number-icon" src="images/number.png" alt="">
+                            <div class="header__numbers-box">
+                                <a class="header__number" href="tel:89265738662">8  926  573  86  62</a>
+                                <a class="header__number" href="tel:84993980211">8  499  398  02  11</a>
+                            </div>
+                        </div>
+                        <div class="header__social">
+                            <a class="header__social-link" href="#">
+                                <img class="header__social-link-img" src="images/social/facebook.png" alt="">
+                            </a>
+                            <a class="header__social-link" href="#">
+                                <img class="header__social-link-img" src="images/social/instagram.png" alt="">
+                            </a>
+                            <a class="header__social-link" href="#">
+                                <img class="header__social-link-img" src="images/social/youtube.png" alt="">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="header__callback">
+                        <button class="button button--white header__button">Заказать обратный звонок</button>
+                    </div>
+                    </div>
+                </div>
             </header>
-            <nav class="menu">
+            <!--end header-->
+            
+            <!--start menu-->
+            <nav class="menu menu--index on-desktop">
                 <div class="container">
                     <ul class="menu__list">
                         <li><a href="#">Каталог</a></li>
@@ -53,10 +106,17 @@
                     </ul>
                 </div>
             </nav>
-            <h1 class="page-title hero__title">Поможем построить <br> счастливое будущее</h1>
+            <!--end menu-->
+
+            <h1 class="page-title hero__title wow fadeInUp">Поможем построить <br> счастливое будущее</h1>
             
         </div>
+        <!--end hero-->
+
+        <!--start main-->
         <main class="main main-pt">
+
+            <!--start action-->
             <div class="action">
                 <div class="container">
                     <div class="action__inner">
@@ -125,12 +185,15 @@
                     </div>
                 </div>
             </div>
+            <!--end action-->
+
+            <!--start builders-->
             <section class="builders">
                 <div class="container">
                     <h2 class="section-title section-title--center section-title--before">Строим практически все</h2>
                     <div class="builders__row">
                         <div class="builders__container">
-                            <div class="builders__item">
+                            <div class="builders__item wow fadeInDown">
                                 <a class="builders__img-block" href="#">
                                     <img class="builders__img" src="images/builders/1.jpg" alt="">
                                 </a>
@@ -139,7 +202,7 @@
                                 </a>
                             </div>
                         </div>
-                        <div class="builders__container">
+                        <div class="builders__container wow fadeInDown" data-wow-delay=".2s">
                             <div class="builders__item">
                                 <a class="builders__img-block" href="#">
                                     <img class="builders__img" src="images/builders/2.jpg" alt="">
@@ -149,7 +212,7 @@
                                 </a>
                             </div>
                         </div>
-                        <div class="builders__container">
+                        <div class="builders__container wow fadeInDown" data-wow-delay=".4s">
                             <div class="builders__item">
                                 <a class="builders__img-block" href="#">
                                     <img class="builders__img" src="images/builders/3.jpg" alt="">
@@ -160,7 +223,7 @@
                             </div>
                         </div>
                         <div class="builders__container">
-                            <div class="builders__item">
+                            <div class="builders__item wow fadeInDown" data-wow-delay=".6s">
                                 <a class="builders__img-block" href="#">
                                     <img class="builders__img" src="images/builders/4.jpg" alt="">
                                 </a>
@@ -170,7 +233,7 @@
                             </div>
                         </div>
                         <div class="builders__container">
-                            <div class="builders__item">
+                            <div class="builders__item wow fadeInDown" data-wow-delay=".8s">
                                 <a class="builders__img-block" href="#">
                                     <img class="builders__img" src="images/builders/5.jpg" alt="">
                                 </a>
@@ -180,7 +243,7 @@
                             </div>
                         </div>
                         <div class="builders__container">
-                            <div class="builders__item">
+                            <div class="builders__item wow fadeInDown" data-wow-delay="1s">
                                 <a class="builders__img-block" href="#">
                                     <img class="builders__img" src="images/builders/6.jpg" alt="">
                                 </a>
@@ -190,7 +253,7 @@
                             </div>
                         </div>
                         <div class="builders__container">
-                            <div class="builders__item">
+                            <div class="builders__item wow fadeInDown" data-wow-delay="1.2s">
                                 <a class="builders__img-block" href="#">
                                     <img class="builders__img" src="images/builders/7.jpg" alt="">
                                 </a>
@@ -202,6 +265,9 @@
                     </div>
                 </div>
             </section>
+            <!--end builders-->
+
+            <!--start advantages-->
             <section class="advantages">
                 <div class="container">
                     <div class="advantages__inner">
@@ -219,7 +285,7 @@
                                 </p>
                             </div>
                         </div>
-                        <div class="advantages__row">
+                        <div class="advantages__row wow fadeInUp" data-wow-delay=".2s" >
                             <div class="advantages__container">
                                 <div class="advantages__item">
                                     <div class="advantages__item-img-block">
@@ -255,22 +321,27 @@
                    
                 </div>
             </section>
-            <section class="bonus">
+            <!--start advantages-->
+
+            <!--start bonus-->
+            <section class="bonus bonus--mr">
                 <img class="bonus__img-house" src="images/bonus/house.jpg" alt="">
                 <div class="container">
                     <div class="bonus__inner">
                         <h2 class="section-title">Бонусом</h2>
                         <ul class="bonus__list">
-                            <li class="bonus__list-item">Используем энергоэффективные технологии и материалы</li>
-                            <li class="bonus__list-item">Индивидуализируем проекты БЕСПЛАТНО</li>
-                            <li class="bonus__list-item">Гарантированно 100 % качественный материал</li>
-                            <li class="bonus__list-item">Индивидуальный подход к каждому заказчику</li>
+                            <li class="bonus__list-item wow fadeInLeft" data-wow-delay="0s">Используем энергоэффективные технологии и материалы</li>
+                            <li class="bonus__list-item wow fadeInLeft" data-wow-delay=".2s">Индивидуализируем проекты БЕСПЛАТНО</li>
+                            <li class="bonus__list-item wow fadeInLeft" data-wow-delay=".4s">Гарантированно 100 % качественный материал</li>
+                            <li class="bonus__list-item wow fadeInLeft" data-wow-delay=".6s">Индивидуальный подход к каждому заказчику</li>
                         </ul>
                         
                     </div>
                 </div>
             </section>
-            
+            <!--end bonus-->
+
+            <!--start reviews-->
             <section class="reviews">
                 <div class="container">
                     <div class="reviews__inner">
@@ -332,6 +403,9 @@
                     </div>
                 </div>
             </section>
+            <!--end reviews-->
+
+            <!--start projects-->
             <section class="projects">
                 <div class="container">
                     <div class="projects__inner">
@@ -343,34 +417,34 @@
                                         <div class="swiper-container projects__gallery-top gallery-top">
                                             <div class="swiper-wrapper">
                                                 <div class="swiper-slide">
-                                                    <div class="projects__main-img-block">
+                                                    <a href="images/projects/1.jpg" data-fancybox class="projects__main-img-block">
                                                         <img class="projects__main-img" src="images/projects/1.jpg" alt="">
-                                                    </div>
+                                                    </a>
                                                 </div>
                                                 <div class="swiper-slide">
-                                                    <div class="projects__main-img-block">
+                                                    <a href="images/projects/2.jpg" data-fancybox class="projects__main-img-block">
                                                         <img class="projects__main-img" src="images/projects/2.jpg" alt="">
-                                                    </div>
+                                                    </a>
                                                 </div>
                                                 <div class="swiper-slide">
-                                                    <div class="projects__main-img-block">
+                                                    <a href="images/projects/3.jpg" data-fancybox class="projects__main-img-block">
                                                         <img class="projects__main-img" src="images/projects/3.jpg" alt="">
-                                                    </div>
+                                                    </a>
                                                 </div>
                                                 <div class="swiper-slide">
-                                                    <div class="projects__main-img-block">
+                                                    <a href="images/projects/4.jpg" data-fancybox class="projects__main-img-block">
                                                         <img class="projects__main-img" src="images/projects/4.jpg" alt="">
-                                                    </div>
+                                                    </a>
                                                 </div>
                                                 <div class="swiper-slide">
-                                                    <div class="projects__main-img-block">
+                                                    <a href="images/projects/5.jpg" data-fancybox class="projects__main-img-block">
                                                         <img class="projects__main-img" src="images/projects/5.jpg" alt="">
-                                                    </div>
+                                                    </a>
                                                 </div>
                                                 <div class="swiper-slide">
-                                                    <div class="projects__main-img-block">
+                                                    <a href="images/projects/6.jpg" data-fancybox class="projects__main-img-block">
                                                         <img class="projects__main-img" src="images/projects/6.jpg" alt="">
-                                                    </div>
+                                                    </a>
                                                 </div>
                                             </div>
                                         </div>
@@ -414,34 +488,34 @@
                                         <div class="swiper-container projects__gallery-top gallery-top-2">
                                             <div class="swiper-wrapper">
                                                 <div class="swiper-slide">
-                                                    <div class="projects__main-img-block">
+                                                    <a href="images/projects/1.jpg" data-fancybox class="projects__main-img-block">
                                                         <img class="projects__main-img" src="images/projects/1.jpg" alt="">
-                                                    </div>
+                                                    </a>
                                                 </div>
                                                 <div class="swiper-slide">
-                                                    <div class="projects__main-img-block">
+                                                    <a href="images/projects/2.jpg" data-fancybox class="projects__main-img-block">
                                                         <img class="projects__main-img" src="images/projects/2.jpg" alt="">
-                                                    </div>
+                                                    </a>
                                                 </div>
                                                 <div class="swiper-slide">
-                                                    <div class="projects__main-img-block">
+                                                    <a href="images/projects/3.jpg" data-fancybox class="projects__main-img-block">
                                                         <img class="projects__main-img" src="images/projects/3.jpg" alt="">
-                                                    </div>
+                                                    </a>
                                                 </div>
                                                 <div class="swiper-slide">
-                                                    <div class="projects__main-img-block">
+                                                    <a href="images/projects/4.jpg" data-fancybox class="projects__main-img-block">
                                                         <img class="projects__main-img" src="images/projects/4.jpg" alt="">
-                                                    </div>
+                                                    </a>
                                                 </div>
                                                 <div class="swiper-slide">
-                                                    <div class="projects__main-img-block">
+                                                    <a href="images/projects/5.jpg" data-fancybox class="projects__main-img-block">
                                                         <img class="projects__main-img" src="images/projects/5.jpg" alt="">
-                                                    </div>
+                                                    </a>
                                                 </div>
                                                 <div class="swiper-slide">
-                                                    <div class="projects__main-img-block">
+                                                    <a href="images/projects/6.jpg" data-fancybox class="projects__main-img-block">
                                                         <img class="projects__main-img" src="images/projects/6.jpg" alt="">
-                                                    </div>
+                                                    </a>
                                                 </div>
                                             </div>
                                         </div>
@@ -485,34 +559,34 @@
                                         <div class="swiper-container projects__gallery-top gallery-top-3">
                                             <div class="swiper-wrapper">
                                                 <div class="swiper-slide">
-                                                    <div class="projects__main-img-block">
+                                                    <a href="images/projects/1.jpg" data-fancybox class="projects__main-img-block">
                                                         <img class="projects__main-img" src="images/projects/1.jpg" alt="">
-                                                    </div>
+                                                    </a>
                                                 </div>
                                                 <div class="swiper-slide">
-                                                    <div class="projects__main-img-block">
+                                                    <a href="images/projects/2.jpg" data-fancybox class="projects__main-img-block">
                                                         <img class="projects__main-img" src="images/projects/2.jpg" alt="">
-                                                    </div>
+                                                    </a>
                                                 </div>
                                                 <div class="swiper-slide">
-                                                    <div class="projects__main-img-block">
+                                                    <a href="images/projects/3.jpg" data-fancybox class="projects__main-img-block">
                                                         <img class="projects__main-img" src="images/projects/3.jpg" alt="">
-                                                    </div>
+                                                    </a>
                                                 </div>
                                                 <div class="swiper-slide">
-                                                    <div class="projects__main-img-block">
+                                                    <a href="images/projects/4.jpg" data-fancybox class="projects__main-img-block">
                                                         <img class="projects__main-img" src="images/projects/4.jpg" alt="">
-                                                    </div>
+                                                    </a>
                                                 </div>
                                                 <div class="swiper-slide">
-                                                    <div class="projects__main-img-block">
+                                                    <a href="images/projects/5.jpg" data-fancybox class="projects__main-img-block">
                                                         <img class="projects__main-img" src="images/projects/5.jpg" alt="">
-                                                    </div>
+                                                    </a>
                                                 </div>
                                                 <div class="swiper-slide">
-                                                    <div class="projects__main-img-block">
+                                                    <a href="images/projects/6.jpg" data-fancybox class="projects__main-img-block">
                                                         <img class="projects__main-img" src="images/projects/6.jpg" alt="">
-                                                    </div>
+                                                    </a>
                                                 </div>
                                             </div>
                                         </div>
@@ -563,7 +637,10 @@
                     </div>
                 </div>
             </section>
-            <section class="social">
+            <!--end projects-->
+
+            <!--start social-->
+            <section class="social wow fadeInUp" data-wow-delay=".2s" >
                 <div class="container">
                     <h2 class="section-title section-title--white section-title--center">
                         Давайте станем ближе в соцсетях
@@ -595,9 +672,12 @@
                     </form>
                 </div>
             </section>
-            
+            <!--end social-->
             
         </main>
+        <!--end main-->
+
+        <!--start footer-->
         <footer class="footer">
             <div class="container">
                 <div class="footer__inner">
@@ -623,7 +703,7 @@
                     </div>
                     <div class="footer__container">
                         <ul class="footer__list">
-                            <li class="footer__list-item"><a href="#" class="footer__list-main-link">Услуги:</a></li>
+                            <li class="footer__list-item"><a href="#" class="footer__list-main-link">Услуги<span class="footer__list-main-link--desk">:</span></a></li>
                             <li class="footer__list-item"><a href="#" class="footer__list-side-link">Достройка и реконструкция</a></li>
                             <li class="footer__list-item"><a href="#" class="footer__list-side-link">Строительство пристроек</a></li>
                             <li class="footer__list-item"><a href="#" class="footer__list-side-link">Бассейны и оборудование для них</a></li>
@@ -659,7 +739,10 @@
                 </div>
             </div>
         </footer>
+        <!--end footer-->
+
     </div>
+    <!--end wrapper-->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 <script src="js/libs.min.js"></script>
 <script src="js/main.js"></script>

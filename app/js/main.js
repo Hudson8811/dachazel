@@ -146,3 +146,33 @@ var mySwiper = new Swiper('.action__swiper', {
       }
     },
   });
+
+  $('.house-catalog__select').niceSelect();
+
+  $('.price-item__subitem-title').click(function(){
+    $(this).toggleClass('open');
+    $('.price-item__subitem-row').removeClass('open');
+    $(this).next().addClass('open');
+    $(this).next().slideToggle('300');
+  });
+
+  $('.price-item__title').click(function(){
+    $(this).toggleClass('open');
+    $('.price-item__row').removeClass('open');
+    $(this).next().addClass('open');
+    $(this).next().slideToggle('300');
+  });
+
+  $('.services-page-item__select').niceSelect();
+  $('.burger').click(function(){
+    $(this).toggleClass("active");
+    $(".hero").toggleClass("active");
+    $("body").toggleClass("js-hidden")
+    $(".mobile-menu").toggleClass("active")
+  });
+  $(".numbox").click(function(){
+
+  }).mask("+7 999 9999999", {placeholder:""});
+  new WOW().init();
+
+  

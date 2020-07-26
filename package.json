@@ -28,6 +28,7 @@
     "@fancyapps/fancybox": "^3.5.7",
     "fullpage": "^1.5.1",
     "fullpage.js": "^3.0.9",
+    "jquery-mask-plugin": "^1.14.16",
     "jquery-nice-select": "^1.1.0",
     "slick-carousel": "^1.8.1",
     "swiper": "^5.4.5",
