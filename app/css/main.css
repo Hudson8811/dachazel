@@ -4770,6 +4770,85 @@ section {
   }
 }
 
+/* modal */
+.arcticmodal-overlay,
+.arcticmodal-container {
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 11000;
+}
+
+.arcticmodal-container {
+  overflow: auto;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  border-collapse: collapse;
+}
+
+*:first-child + html .arcticmodal-container {
+  height: 100%;
+}
+
+.arcticmodal-container_i {
+  height: 100%;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.arcticmodal-container_i2 {
+  padding: 24px;
+  margin: 0;
+  border: 0;
+  vertical-align: middle;
+}
+
+@media (max-width: 650px) {
+  .arcticmodal-container_i2 {
+    padding: 10px;
+  }
+}
+
+.arcticmodal-error {
+  padding: 20px;
+  border-radius: 10px;
+  background: #000;
+  color: #fff;
+}
+
+.b-modal {
+  position: relative;
+  max-width: 700px;
+  background-color: #FFFFFF;
+  margin: 0 auto;
+  padding: 40px 30px;
+  box-sizing: border-box;
+  border-radius: 10px;
+}
+
+.arcticmodal-close {
+  position: absolute;
+  top: 12px;
+  right: 19px;
+  background: url(../img/close.svg) no-repeat center center;
+  background-size: contain;
+  height: 25px;
+  width: 25px;
+  z-index: 20;
+  cursor: pointer;
+}
+
+.b-modal .button--green {
+  color: #FFFFFF;
+}
+
+.b-modal .button--green:hover {
+  color: #3a6136;
+}
+
 .nice-select {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
   background-color: #fff;

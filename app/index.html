@@ -27,7 +27,7 @@
                             <span class="rect"></span>
                         </div>
                         <div class="header__callback on-desktop">
-                            <button class="button button--white header__button">Заказать обратный звонок</button>
+                            <button class="button button--white header__button modal-btn">Заказать обратный звонок</button>
                         </div>
                         <div class="header__communication on-desktop">
                             <div class="header__numbers">
@@ -87,7 +87,7 @@
                         </div>
                     </div>
                     <div class="header__callback">
-                        <button class="button button--white header__button">Заказать обратный звонок</button>
+                        <button class="button button--white header__button modal-btn">Заказать обратный звонок</button>
                     </div>
                     </div>
                 </div>
@@ -732,7 +732,7 @@
                                 <a class="footer__call-item-link" href="mailto:dachazel@yandex.ru">dachazel@yandex.ru</a>
                             </div>
                         </div>
-                        <button class="button button--white footer__call-block-button">
+                        <button class="button button--white footer__call-block-button modal-btn">
                             Заказать звонок
                         </button>
                     </div>
@@ -743,6 +743,55 @@
 
     </div>
     <!--end wrapper-->
+
+    <div class="g-hidden">
+        <div class="b-modal" id="call-modal">
+            <div class="b-modal_close arcticmodal-close"></div>
+            <div class="questions__inner">
+                <div class="questions__title">
+                    Остались вопросы?
+                </div>
+                <div class="questions__text">
+                    Если вы не нашли чего-то или появились вопросы, напишите нам об этом. Мы свяжемся с вами как можно быстрее.
+                </div>
+                <form action="" class="questions__form">
+                    <div class="questions__form-item">
+                        <label for="" class="questions__label">
+                            Имя
+                        </label>
+                        <input class="questions__input" type="text">
+                    </div>
+                    <div class="questions__form-item">
+                        <label for="" class="questions__label">
+                            Телефон
+                        </label>
+                        <input class="questions__input numbox" type="text" maxlength="14">
+                    </div>
+                    <div class="questions__form-item">
+                        <label for="" class="questions__label">
+                            Вопрос
+                        </label>
+                        <textarea name="" class="questions__textarea"></textarea>
+                    </div>
+                    <button class="button button--green questions__button ">
+                        Перезвоните мне
+                    </button>
+                </form>
+            </div>
+        </div>
+        <div class="b-modal" id="thanks">
+            <div class="b-modal_close arcticmodal-close"></div>
+            <div class="questions__inner">
+                <div class="questions__title">
+                   Спасибо за заявку
+                </div>
+                <div class="questions__text">
+                   Наш менеджер свяжется с вами в ближайшее время
+                </div>
+                
+            </div>
+        </div>
+    </div>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 <script src="js/libs.min.js"></script>
 <script src="js/main.js"></script>

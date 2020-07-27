@@ -176,3 +176,6 @@ var mySwiper = new Swiper('.action__swiper', {
   new WOW().init();
 
   
+ $('.modal-btn').click(function(){
+    $("#call-modal").arcticmodal()
+     });
