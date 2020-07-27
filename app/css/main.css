@@ -4438,6 +4438,10 @@ body.js-hidden {
   overflow: hidden;
 }
 
+input {
+  appearance: none;
+}
+
 a {
   color: inherit;
   text-decoration: none;
