@@ -7786,6 +7786,10 @@ section {
   border-color: inherit;
 }
 
+.nice-select .list {
+  z-index: 20;
+}
+
 .text-page {
   position: relative;
 }
