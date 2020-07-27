@@ -5018,6 +5018,10 @@ section {
   }
 }
 
+.header__communication {
+  margin-left: 112px;
+}
+
 .header__number-icon {
   position: absolute;
   left: 0;
