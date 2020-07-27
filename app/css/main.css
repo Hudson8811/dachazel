@@ -5122,7 +5122,6 @@ section {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  background-attachment: fixed;
 }
 
 .hero--pb {
@@ -6796,7 +6795,7 @@ section {
   width: 385px;
   height: 502px;
   opacity: 0.78;
-  z-index: 8;
+  z-index: -1;
 }
 
 @media (max-width: 1024px) {
@@ -7636,6 +7635,7 @@ section {
   font-size: 20px;
   color: #3a6136;
   border: 4px solid #3a6136;
+  background-color: transparent;
 }
 
 .card-reviews__button:hover {

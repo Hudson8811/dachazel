@@ -149,7 +149,7 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    background-attachment: fixed;
+
     &--pb{
         padding-bottom: 299px;
     }
@@ -1381,7 +1381,7 @@
         width: 385px;
         height: 502px;
         opacity: 0.78;
-        z-index: 8;
+        z-index: -1;
         @include for-md{
             display: none;
         }
@@ -2000,6 +2000,7 @@
         font-size: 20px;
         color: $green;
         border: 4px solid $green;
+        background-color: transparent;
         &:hover{
             border-color: $green;
         }
