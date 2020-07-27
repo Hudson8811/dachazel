@@ -179,3 +179,14 @@ var mySwiper = new Swiper('.action__swiper', {
  $('.modal-btn').click(function(){
     $("#call-modal").arcticmodal()
      });
+
+
+     $(".services__item").click(function() {
+      $("html, body").animate({
+         scrollTop: $($(this).attr("href")).offset().top - 25 + "px"
+      }, {
+         duration: 500,
+         easing: "swing"
+      });
+      return false;
+    });
